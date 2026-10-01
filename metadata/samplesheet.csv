@@ -1,0 +1,4 @@
+sample_id    role    sex    affected    input_type
+M8584    proband    M    affected    BAM
+M8784    mother    F    carrier    BAM
+M8884    TO_CONFIRM    M    unaffected    BAM

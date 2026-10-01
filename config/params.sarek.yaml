@@ -1,0 +1,12 @@
+input: "s3://katerina-lind-storage/aarskog-scott/metadata/samplesheet.sarek.csv"
+
+outdir: "s3://katerina-lind-storage/aarskog-scott/results/"
+
+genome: "GATK.GRCh38"
+
+tools: "haplotypecaller,deepvariant,manta,tiddit,cnvkit,vep"
+
+joint_germline: true
+
+save_mapped: true
+save_output_as_bam: true
