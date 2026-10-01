@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Results
+results/*
+!results/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Nextflow
+.nextflow*
+work/
+
+# Large genomic files
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf.gz
+*.g.vcf.gz
+
+# Secrets
+.env
+*.pem
+*.key
